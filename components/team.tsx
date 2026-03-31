@@ -7,8 +7,8 @@ const teamMembers = [
     role: 'Backend & Cloud Engineer',
     image: '/miembro-1-2.jpg',
     skills: ['Machine Learning', 'IoT', 'Despliegue en la Nube'],
-    linkedin: '#',
-    github: '#',
+    linkedin: 'https://www.linkedin.com/in/helber-alexeiv-correa-uribe-68a4ba338/',
+    github: 'https://github.com/HelbertAlexeiv',
   },
   {
     name: 'Julian Javier Lizcano Villarreal',
@@ -16,8 +16,8 @@ const teamMembers = [
     image:
       'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Miembro%202-XjIOFmgQ1PRx5G6Xjs5gLdEywjiuai.png',
     skills: ['Desarrollo Web', 'Apps Móviles', 'Desktop'],
-    linkedin: '#',
-    github: '#',
+    linkedin: 'https://www.linkedin.com/in/jjlizcano/',
+    github: 'https://github.com/jjlizcano',
   },
   {
     name: 'Camilo Ivan Palacio Perez',
@@ -26,7 +26,7 @@ const teamMembers = [
       'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Miembro%203.png-VzqHLki3GKcnc5dYKEQo0zr4JKXq9l.jpeg',
     skills: ['Quality Assurance', 'Testing', 'Apps Móviles y Desktop'],
     linkedin: '#',
-    github: '#',
+    github: 'https://github.com/Capape29',
   },
 ]
 

@@ -18,10 +18,10 @@ function TiktokIcon({ className }: { className?: string }) {
 }
 
 const socialLinks = [
-  { label: 'Facebook', href: 'https://facebook.com/kiskasoft', icon: Facebook },
-  { label: 'Instagram', href: 'https://instagram.com/kiskasoft', icon: Instagram },
-  { label: 'Youtube', href: 'https://youtube.com/@kiskasoft', icon: Youtube },
-  { label: 'TikTok', href: 'https://tiktok.com/@kiskasoft', icon: TiktokIcon },
+  { label: 'Facebook', href: 'https://www.facebook.com/profile.php?id=61576486641957', icon: Facebook },
+  { label: 'Instagram', href: 'https://www.instagram.com/kiskasoft/', icon: Instagram },
+  { label: 'Youtube', href: 'https://www.youtube.com/@Kiskasoft', icon: Youtube },
+  { label: 'TikTok', href: 'https://www.tiktok.com/@kiskasoft.oficial?is_from_webapp=1&sender_device=pc', icon: TiktokIcon },
 ]
 
 export default function Footer() {
