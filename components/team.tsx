@@ -5,8 +5,7 @@ const teamMembers = [
   {
     name: 'Helbert Alexeiv Correa Uribe',
     role: 'Backend & Cloud Engineer',
-    image:
-      'https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-OFfwkYvSdh3RPFV4wu4RjWCa2ZNBSe.png',
+    image: '/miembro-1-2.jpg',
     skills: ['Machine Learning', 'IoT', 'Despliegue en la Nube'],
     linkedin: '#',
     github: '#',
@@ -59,12 +58,12 @@ export default function Team() {
               className="flex flex-col items-center text-center p-6 rounded-2xl bg-[#fafafa] hover:bg-[#f5f5f5] transition-colors"
             >
               {/* Photo */}
-              <div className="relative w-32 h-32 md:w-36 md:h-36 rounded-full overflow-hidden mb-5 ring-4 ring-[#f5a623]/20">
+              <div className="relative w-36 h-36 md:w-40 md:h-40 rounded-full overflow-hidden mb-5 ring-4 ring-[#f5a623]/20">
                 <Image
                   src={member.image}
                   alt={member.name}
                   fill
-                  className={`object-cover ${member.name.includes('Helbert') ? 'object-[center_25%] scale-[0.85]' : 'object-top'}`}
+                  className={`object-cover ${member.name.includes('Helbert') ? 'object-[50%_24%] scale-110' : 'object-top'}`}
                 />
               </div>
 
